@@ -20,4 +20,15 @@ Often characters beyond ( the ranges )
 * init with user config, given with --config
 
 ## uses:
-```ocarb < file.txt``` 
+```./ocharb < file.txt``` 
+
+## example:
+```
+$ echo "Ludwig van Beethoven K 125. Výroćí Jeno Úmrtí : Symfonie" | ./ocharb
+unicode;character;count
+"U+00FD";"ý";1
+"U+0107";"ć";1
+"U+00ED";"í";2
+"U+00DA";"Ú";1
+
+```
